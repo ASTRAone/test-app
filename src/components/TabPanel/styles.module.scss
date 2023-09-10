@@ -1,0 +1,13 @@
+.container {
+  padding: 20px;
+  background-color: white;
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & .btn {
+    cursor: pointer;
+    color: #6c6868;
+  }
+}

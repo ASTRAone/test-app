@@ -1,0 +1,20 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4f1f1;
+  height: 100%;
+
+  .btns {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  & .container {
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+  }
+}

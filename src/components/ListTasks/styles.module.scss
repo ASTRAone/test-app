@@ -1,0 +1,17 @@
+.container {
+  overflow-y: auto;
+  height: 444px;
+}
+
+.todo-modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  & .btn {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,44 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4f1f1;
+  // height: 100%;
+  margin-top: 20px;
+
+  .btns {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  & .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    width: 900px;
+    border-radius: 5px;
+
+    & .title {
+      text-align: center;
+    }
+
+    & .input {
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      white-space: nowrap;
+      width: 1px;
+    }
+
+    & .canvas {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
